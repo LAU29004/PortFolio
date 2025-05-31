@@ -1,0 +1,132 @@
+.projects-section {
+  padding: 4rem 2rem;
+  background: #090909;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem); 
+  color: #b19cd9;
+  margin-bottom: 0.5rem;
+}
+
+.projects-section p {
+  margin-top: 0.3rem;
+  color: #aaa;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(1rem, 2vw, 2rem);
+  margin-top: 3rem;
+}
+
+.project-vertical-card {
+  background-color: #14121c;
+  width: clamp(280px, 45vw, 320px); 
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(177, 156, 217, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-vertical-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 24px rgba(177, 156, 217, 0.3);
+}
+
+.project-image {
+  width: 100%;
+  height: clamp(150px, 25vw, 200px);
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 3px solid #b19cd9;
+}
+
+.project-content {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.project-content h3 {
+  color: #e0d7f3;
+  font-size: clamp(1.2rem, 3vw, 1.4rem);
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  color: #bbb;
+  font-size: clamp(0.85rem, 2vw, 0.95rem);
+  margin-bottom: 1rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.tech-stack span {
+  background: #2c2c3e;
+  color: #c5b2e2;
+  padding: 0.35rem 0.75rem;
+  font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.project-links a {
+  margin-right: 0.6rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #b19cd9;
+  border: 1px solid #b19cd9;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  font-size: clamp(0.75rem, 1.5vw, 0.85rem);
+  transition: all 0.3s ease;
+  outline-offset: 2px;
+}
+
+.project-links a:hover,
+.project-links a:focus,
+.project-links a:active {
+  background-color: #b19cd9;
+  color: #14121c;
+  outline: none;
+  box-shadow: 0 0 5px #b19cd9;
+}
+
+
+@media (max-width: 768px) {
+  .projects-grid {
+    gap: 1.5rem;
+  }
+
+  .project-vertical-card {
+    width: 90%;
+    max-width: 400px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .project-vertical-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-content p,
+  .tech-stack span,
+  .project-links a {
+    font-size: 0.8rem;
+  }
+}

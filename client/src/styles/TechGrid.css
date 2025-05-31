@@ -1,0 +1,125 @@
+.tech-grid {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.hex-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.hex-row.offset {
+  margin-left: 60px;
+}
+
+.hex {
+  position: relative;
+  width: 140px;
+  height: 121px; /* width * sqrt(3)/2 */
+  background: linear-gradient(135deg, #6A0DAD, #B19CD9); 
+  clip-path: polygon(
+    50% 0%,
+    93% 25%,
+    93% 75%,
+    50% 100%,
+    7% 75%,
+    7% 25%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(177, 156, 217, 0.7);
+  user-select: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.hex:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(177, 156, 217, 0.9);
+}
+
+.hex-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.35));
+}
+
+.hex-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hex-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(106, 13, 173, 0.85);
+  color: white;
+  font-weight: 700;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+  text-align: center;
+  padding: 10px;
+  z-index: 2;
+}
+
+.hex:hover .hex-overlay {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .tech-grid {
+    padding: 10px;
+  }
+
+  .hex-row.offset {
+    margin-left: 30px;
+  }
+
+  .hex {
+    width: 100px;
+    height: 87px;
+  }
+
+  .hex-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hex-overlay {
+    font-size: 14px;
+  }
+}
