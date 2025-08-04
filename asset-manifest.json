@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/LAU29004/PortFolio.git/static/css/main.2de7b880.css",
+    "main.js": "/LAU29004/PortFolio.git/static/js/main.388b125a.js",
+    "static/js/453.419a5d54.chunk.js": "/LAU29004/PortFolio.git/static/js/453.419a5d54.chunk.js",
+    "static/media/coder.png": "/LAU29004/PortFolio.git/static/media/coder.0ff28d5053b4cfa37b93.png",
+    "static/media/guess_number.png": "/LAU29004/PortFolio.git/static/media/guess_number.9e69476997876b8bf623.png",
+    "static/media/portfolio.png": "/LAU29004/PortFolio.git/static/media/portfolio.54c131eb2cb5a619f18b.png",
+    "static/media/weather.png": "/LAU29004/PortFolio.git/static/media/weather.9b3a28f21e4b875cfb5b.png",
+    "static/media/c.svg": "/LAU29004/PortFolio.git/static/media/c.dcb807f304c6eb8719ab19f8cfc4a016.svg",
+    "static/media/react.svg": "/LAU29004/PortFolio.git/static/media/react.8e63d418a6421cc2662e234ac8af7313.svg",
+    "static/media/python.svg": "/LAU29004/PortFolio.git/static/media/python.e146c98dc5517bd9c7e63d6f63a6a1df.svg",
+    "static/media/javascript.svg": "/LAU29004/PortFolio.git/static/media/javascript.656d3ae4ce4de1258879d0b332a0dd50.svg",
+    "static/media/html5.svg": "/LAU29004/PortFolio.git/static/media/html5.c52b8b5caf0b620c32e2c6eb7b90b3b6.svg",
+    "index.html": "/LAU29004/PortFolio.git/index.html",
+    "static/media/cplusplus.svg": "/LAU29004/PortFolio.git/static/media/cplusplus.1b61d12f1e13619f72f915b0e77f83b3.svg",
+    "static/media/mongodb.svg": "/LAU29004/PortFolio.git/static/media/mongodb.d930c2c4198d1000c2fb8b7d3177a44c.svg",
+    "static/media/css.svg": "/LAU29004/PortFolio.git/static/media/css.5d92dadd9310f8ea8f9a9dd6798cf325.svg",
+    "main.2de7b880.css.map": "/LAU29004/PortFolio.git/static/css/main.2de7b880.css.map",
+    "main.388b125a.js.map": "/LAU29004/PortFolio.git/static/js/main.388b125a.js.map",
+    "453.419a5d54.chunk.js.map": "/LAU29004/PortFolio.git/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2de7b880.css",
+    "static/js/main.388b125a.js"
+  ]
+}
