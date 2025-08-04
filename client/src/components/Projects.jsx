@@ -27,6 +27,13 @@ const projects = [
     techStack: ["Python","Tkinter"],
     github: "https://github.com/LAU29004/Guess_number_python.git",
     live: "#"
+  },
+  {
+    title:"Epilepsy And BrainStroke Detection Model",
+    img: portfolioImg,
+    description:"This Machine Learning Model helps Doctors to detect Neurological diseases like Epilepsy And BrainStroke. ",
+    github:"https://github.com/LAU29004/NeuroSpark-AI",
+    techStack:["JupyterNotebook","CNN","XGBoost","Pandas","Numpy"],
   }
 ];
 

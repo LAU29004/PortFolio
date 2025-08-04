@@ -30,18 +30,19 @@ const Hero = () => {
 
           <h2>My Resume</h2>
           <div className="resume-buttons">
-            <a 
-              href="/resume.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+          {/*<a
+              href="/LAUKIK_WAIKAR_RESUME.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-view-resume"
             >
-              View Resume
+             View Resume
             </a>
+*/}
 
-            <a 
-              href="/resume.pdf" 
-              download="Laukik_Waikar_Resume.pdf" 
+            <a
+              href="/LAUKIK_WAIKAR_RESUME.pdf"
+              download="LAUKIK WAIKAR RESUME.pdf"
               className="btn btn-download-resume"
             >
               Download Resume
